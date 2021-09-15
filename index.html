@@ -18,30 +18,42 @@
     <div class="container">
         <div class="row">
             <div class="search-section col-3">
-                <div class="search-box card col-12">
+                <form class="search-box card col-12" id="city-search">
                     <h3 class="text-center card-body">Search for a City</h3>
-                    <input class="city col-12" id="city" type="text">
-                    <btn class="btn col-12">Search</btn>
-                </div>
+                    <input class="city col-12" id="city" type="text" autofocus="true" />
+                    <btn class="btn col-12" id="btn">Search</btn>
+                </form>
                 <div class="previous-search card col-12">
                     <h6 class="text-center card-body">Previous Searches:</h6>
+                    <span id="previous-city"></span>
                 </div>
             </div>
             <div class="results-section col-9">
                 <div class="results-box card col-12">
-                    <h3 class="text-center card-body" id="results">City Test<span id="city-name"></span></h3>
+                    <h3 class="text-center card-body" id="main-forecast">City Test<span id="city-name"></span></h3>
                     <div>
                         <span class="weather-results" id="weather-sets"></span>
                     </div>
                 </div>
-                <div class="forecast card col-12" id="forecast">
-                    <h6 class="card-body">5-Day Forecast:</h6> <!--do I need individual spans for each day of the forecast?-->
+                <div class="forecast card col-12" id="daily-forecast">
+                    <h6 class="card-body">5-Day Forecast:</h6>
+                    <!--do I need individual spans for each day of the forecast?-->
                     <div class="row">
-                    <div class="day-one card-body col-2"><h6 class="text-center">test</h6></div>
-                    <div class="day-one card-body col-2"><h6 class="text-center">test</h6></div>
-                    <div class="day-one card-body col-2"><h6 class="text-center">test</h6></div>
-                    <div class="day-one card-body col-2"><h6 class="text-center">test</h6></div>
-                    <div class="day-one card-body col-2"><h6 class="text-center">test</h6></div>
+                        <div class="day-one card-body col-2">
+                            <h6 class="text-center">test</h6>
+                        </div>
+                        <div class="day-one card-body col-2">
+                            <h6 class="text-center">test</h6>
+                        </div>
+                        <div class="day-one card-body col-2">
+                            <h6 class="text-center">test</h6>
+                        </div>
+                        <div class="day-one card-body col-2">
+                            <h6 class="text-center">test</h6>
+                        </div>
+                        <div class="day-one card-body col-2">
+                            <h6 class="text-center">test</h6>
+                        </div>
                     </div>
                 </div>
             </div>
