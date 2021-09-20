@@ -1,0 +1,25 @@
+.dashboard {
+    background-color: #00416D;
+    color: #FFFFFF
+}
+
+body {
+    background-color: #DDDDDD;
+}
+
+.favorable {
+color: red
+}
+
+.moderate {
+color: orange
+}
+
+.severe {
+color: lightgreen
+}
+
+.five-day {
+    text-align: center;
+
+}
